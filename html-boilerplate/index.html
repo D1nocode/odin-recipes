@@ -4,40 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first Webpage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1><em>Cake Recipes</em></h1>
-    <p><strong>
-      Hello Your one step closer to learning how to bake four types of cakes!
-    </p>
-    <p>
-      Each link bellow will have a picture and a recipe of an amazing cake you
-      could bake for friends and family!</strong>
-    </p>
-    <ul>
-      <li><a href="recipes/cake.html">Chocolate Cake</a></li>
-      <li><a href="recipes/van.html">Vanilla Cake</a></li>
-      <li><a href="recipes/strawberry.html">Strawberry Cake</a></li>
-      <li><a href="recipes/rainbow.html">Rainbow Cake</a></li>
-    </ul>
-    
+    <div class="container">
+      <div class="cake-title">
+        <h1><em>Cake Recipes</em></h1>
+      </div>
+      <div class="intro">
+        <p>
+          <strong>
+            Hello Your one step closer to learning how to bake four types of
+            cakes!</strong
+          >
+        </p>
+        <p>
+          <strong>
+            Each link bellow will have a picture and a recipe of an amazing cake
+            you could bake for friends and family!</strong
+          >
+        </p>
+      </div>
+      <div class="cake-list">
+        <ul>
+          <li><a href="recipes/cake.html">Chocolate Cake</a></li>
+          <li><a href="recipes/van.html">Vanilla Cake</a></li>
+          <li><a href="recipes/strawberry.html">Strawberry Cake</a></li>
+          <li><a href="recipes/rainbow.html">Rainbow Cake</a></li>
+        </ul>
+      </div>
 
-    <p>
-      <img
-        src="images/cakes.jpg"
-        alt="Multiple cakes with Faces"
-        height="300"
-        width="400"
-      />
-    </p>
+      <div class="cake-pic">
+        <img
+          src="images/cakes.jpg"
+          alt="Multiple cakes with Faces"
+          height="300"
+          width="400"
+        />
+      </div>
 
-    <p>
-      <em
-        >Thank You so much for checking out my website, I hope i was able to
-        help you bake the right cake for you!
-      </em>
-    </p>
-    <p>-Dino</p>
+      <div class="outro">
+        <p>
+          <em
+            >Thank You so much for checking out my website, I hope i was able to
+            help you bake the right cake for you!
+          </em>
+        </p>
+        <p>-Dino</p>
+      </div>
+    </div>
   </body>
 </html>
