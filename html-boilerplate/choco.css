@@ -1,0 +1,49 @@
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+.choco-title {
+  font-size: 30px;
+  border: 5px solid black;
+  background-color: coral;
+}
+
+.title {
+  font-size: 20px;
+  border: 5px solid black;
+  background-color: chocolate;
+}
+
+.choco-ul > ul {
+  font-size: 17px;
+}
+
+.choco-ol > ol {
+  font-size: 17px;
+  margin-right: 25px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.brian {
+  height: 60px;
+  text-align: center;
+  width: auto;
+  background-color: chocolate;
+  font-size: 20px;
+  font-style: italic;
+}
+
+a.button {
+  background-color: aqua;
+}
+
+body {
+  background-color: beige;
+}
